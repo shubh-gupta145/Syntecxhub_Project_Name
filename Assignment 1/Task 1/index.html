@@ -1,51 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubh Gupta | Developer Portfolio</title>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-        <header>
-    <div class="nav-container">
-        <div class="name-div">
-        <a href="#" id="name">Shubh</a>
-    </div>
-    <nav>
-<div class="nav-content">
-    <a href="#" id="logo">Shubh</a>
-    <a href="#">Home</a>
-    <a href="#">Contact</a>
-    <a href="#">Skills</a>
-    <a href="#">Projects</a>
+<nav>
+<h2>Shubh</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="home">
+<h1>Hello, I'm Shubh Gupta</h1>
+<h2 class="typing">Full Stack Developer</h2>
+<div class="hero-btns">
+<a href="#contact">Hire Me</a>
+<a href="#projects">View Projects</a>
 </div>
-    </nav>
-</header>
-<section>
-    <div id="PictureContainer">
-        <img src="images.jpg" alt="logo" id="Picture">
-    </div>
-    <div class="HomeContainer">
-    <h1 id="headline"> Hi it's is Shubh <span></span></h1>
-    <div class="text-container">
-        <h3 class="typing-text">I' am a<span></span></h3>
-    </div>
-    <div class="msg-container">
-        <p id="description"> Hello my name is shubh gupta i am a pursuing  Software Devloper job I am Create many different type project i am very interested to larn different type language  my  dream company is Google. I have a many goals.  I am create a my own A.I assient </p>
-    </div>
-        <div class="social-icons">
-         <a href="#" class="icons"> <i class="fa-brands fa-linkedin" ></i></a>  
-         <a href="#" class="icons" ><i class="fa-brands fa-twitter" ></i></a>   
-         <a href="#"class="icons"><i class="fa-brands fa-instagram" ></i></a>   
-         <a href="#" class="icons"><i class="fa-brands fa-youtube" ></i></a>   
-         <a href="#"class="icons"><i class="fa-brands fa-github" ></i></a>   
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="User.jpg" alt="Developer Image">
         </div>
-        <div class="message-container">
-        <button id="btn"> Hire me</button>
+
+        <div class="about-content">
+            <h3>Hello! I'm <span>Shubh Gupta</span></h3>
+
+            <p>
+                I am a passionate <strong>Software Developer</strong> currently pursuing BCA.
+                I specialize in building modern, responsive, and scalable web applications.
+                I love solving real-world problems through clean and efficient code.
+            </p>
+
+            <p>
+                My core focus is on <strong>Full Stack Development</strong>,
+                improving my <strong>Data Structures & Algorithms</strong> skills,
+                and continuously learning new technologies.
+            </p>
+
+            <div class="about-cards">
+
+                <div class="about-card">
+                    <h4>2+</h4>
+                    <p>Major Projects Built</p>
+                </div>
+
+                <div class="about-card">
+                    <h4>100+</h4>
+                    <p>DSA Problems Solved</p>
+                </div>
+
+                <div class="about-card">
+                    <h4>Goal</h4>
+                    <p>Become a Professional Software Engineer</p>
+                </div>
+
+            </div>
+        </div>
+
     </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-wrapper">
+
+        <!-- Frontend -->
+        <div class="skill-category">
+            <h3>Frontend Development</h3>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress html"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress css"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress js"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>React</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress react"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category">
+            <h3>Backend Development</h3>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Node.js</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress node"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Express.js</span>
+                    <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress express"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-category">
+            <h3>Programming & DSA</h3>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Java</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress java"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Data Structures</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress dsa"></div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    </section>
+</section>
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-container">
+
+        <!-- ResumeCraft Project -->
+        <div class="project-card">
+            <a href="https://github.com/shubh-gupta145/Resume-Craft" target="_blank">
+                <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=1200&auto=format&fit=crop" alt="ResumeCraft Project">
+                <div class="project-overlay">
+                    <h3>ResumeCraft</h3>
+                    <p>
+                        Online resume builder with ATS scoring system,
+                        feedback analysis, and professional templates.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <!-- Placement Mantra Project -->
+        <div class="project-card">
+            <a href="https://github.com/shubh-gupta145/Placement-Mantra" target="_blank">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Placement Mantra Project">
+                <div class="project-overlay">
+                    <h3>Placement Mantra</h3>
+                    <p>
+                        A placement preparation platform for coding practice,
+                        mock interviews, aptitude tests, and technical questions.
+                    </p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-container">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
+            <h3>Let's Work Together 🚀</h3>
+            <p>
+                I'm always open to discussing new projects, internship opportunities,
+                and creative ideas. Feel free to reach out!
+            </p>
+
+            <div class="info-box">
+                <span>📧</span>
+                <p>shubhgupta@example.com</p>
+            </div>
+
+            <div class="info-box">
+                <span>📱</span>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="info-box">
+                <span>📍</span>
+                <p>India</p>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <form class="contact-form">
+
+            <div class="input-group">
+                <input type="text" required>
+                <label>Your Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" required>
+                <label>Your Email</label>
+            </div>
+
+            <div class="input-group">
+                <textarea rows="5" required></textarea>
+                <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="send-btn">
+                Send Message 🚀
+            </button>
+
+        </form>
+
+    </div>
+</section>
 </body>
 </html>
